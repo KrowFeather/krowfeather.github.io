@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a little personal website">
+    <title>Fading Raven的小站</title>
+    <!-- 看什么看，有什么好看的，菜鸡写的代码没啥好看的 -->
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .bk{
+            background-image: url(./forest-7539355_1920.jpg);
+            height: 800px;
+            background-attachment: fixed;
+        }
+        p.title{
+            position: relative;
+            top: 180px;
+            text-align: center;
+            font-size: 80px;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        p.title1{
+            position: relative;
+            top: 230px;
+            
+            color: white;
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: italic;
+        }
+        div>p{
+            text-align: center;
+            font-size: 10px;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            color: white;
+            top: 480px;
+            text-decoration: none;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: italic;
+       }
+       a:hover{
+        color: gray;
+       }
+       p.version{
+            font-weight: bold;
+       }
+       .button{
+            position: relative;
+            top: -150px;
+            font-size: 35px;
+       }
+       .navi{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 40px;
+            background-color: black;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+       }
+
+        .bre{
+            width: 200px;
+            height: 40px;
+            background-color: black;
+            border-style: none;
+            text-align: center;
+            color: aliceblue;
+            font-size: 16px;
+        }
+        .bre:hover{
+            background-color: darkgoldenrod;
+            transform: translateY(-2px);
+        }
+        .ab{
+            width: 200px;
+            height: 40px;
+            background-color: black;
+            border-style: none;
+            text-align: center;
+            color: aliceblue;
+            font-size: 16px;
+            float: right;
+        }
+        .ab:hover{
+            background-color: gray;
+            transform: translateY(-2px);
+        }
+        .anno{
+            background-color: whitesmoke;
+        }
+        .annotext{
+            text-align: center;
+            color: black;
+            font-size: 25px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: italic;
+        }
+        .cont{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black;
+            text-align: center;
+            display: flex;
+        }
+        .cont2{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black;
+            text-align: center;
+            display: flex;
+        }
+        .Java{
+            width: 640px;
+            height: 200px;
+            color: black;
+            background-color: white;
+        }
+        .OP{
+            width: 640px;
+            height: 200px;
+            color: black;
+            background-color: white;
+        }
+        .HCJ{
+            height: 200px;
+            width: 640px;
+            background-color: white;
+        }
+        .cpp{
+            width: 640px;
+            height: 200px;
+            color: black;
+            background-color: white;
+        }
+        .Qt{
+            width: 640px;
+            height: 200px;
+            color: black;
+            background-color: white; 
+        }
+        .un{
+            width: 640px;
+            height: 200px;
+            color: black;
+            background-color: white; 
+        }
+    </style>
+    <script>
+        function jump1(){
+            var a = "./resource.html";
+            window.location.href=a;
+        }
+        function jump2(){
+            var a = "./exp.html";
+            window.location.href=a;
+        }
+        function jump3(){
+            var a = "./about.html";
+            window.location.href=a;
+        }
+    </script>
+</head>
+<body>
+    <div class="navi">
+
+        <input type="button" value="Resource" class="bre" title="资源界面" onclick=javascript:jump1()>
+        <input type="button" value="Exp-Lab" class="bre" title="设计实验区" onclick=javascript:jump2()>
+        <input type="button" value="About" class="ab" id="tip" title="关于" onclick=javascript:jump3()>
+
+    </div>
+    <div class="bk">
+        <div class="inner">  
+            <p class="title">Welcome to Fading Raven's</p>
+            <br>
+            <p class="title1">official website</p>
+            <div class="button">
+                <a href="./resource.html">Tap here to enter the resource page</a>
+            </div>
+        </div>
+        <!-- <a href="./exp.html">设计实验区</a> -->
+    </div>
+    <div class="anno">
+        <div class="annotext">
+             New Direction
+             <hr color='black'>
+        </div>
+        <div class="cont">    
+            <div class="Java">
+                <div>Java</div>
+                <img src="./589d24b306161.png" alt="">
+            </div>
+            <div class="OP">
+                <div>
+                    OpenGL
+                </div>
+                <img src="./og.png" alt="">
+            </div>
+            <div class="HCJ">
+                <div>HTML+CSS+JS</div>
+                <img src="./re.png" alt="">
+            </div>
+        </div>
+        <div class="cont2">
+            <div class="cpp">
+               <div>C++</div> 
+               <img src="./cpp.png" alt="">
+            </div>
+            <div class="Qt">
+                <div>Qt</div>
+                <img src="qt.png" alt="">
+            </div>
+            <div class="un">
+                <div>Unity</div>
+                <img src="un1.png" alt="">
+            </div>
+        </div>
+        <hr color='black'>
+    </div>
+    <div class="status">
+        <p>感谢北京理工大学的曲子p-Its大佬提供技术援助</p>
+        <p class="version">version 1.0.1(2023 mega update)</p>
+    </div>
+
+</body>
+</html>

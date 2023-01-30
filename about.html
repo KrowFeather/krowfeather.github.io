@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            display: flex;
+            height: 40px;
+            width: 100%;
+            background-color: black;
+        }
+        .we{
+            text-align: center;
+        }
+        .b{
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 70px;
+            font-size: 17px;
+        }
+        .b:hover{
+            background-color: gray;
+        }
+        .text{
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .btn{
+            height: 100px;
+            width: 300px;
+            border: 0px;
+            font-size: 20px;
+            color: aliceblue;
+            border-radius: 20px;
+            background: linear-gradient(to left,blue,red);
+        }
+        .btn:hover{
+            background: linear-gradient(to left ,white,black);
+        }
+    </style>
+    <script>
+        function jump(){
+            var a="./index.html";
+            window.location.href=a;
+        }
+    </script>
+</head>
+<body>
+    <div class="nav">
+        <input type="button" value="back" class="b" onclick="javascript:jump()">
+    </div>
+     <h1 class="we">好像也没啥可写的</h1>
+     <h2 class="we">干就完了</h2>
+     <div class="text">here</div>
+     <div>
+        <button class="btn">my button</button>
+     </div>
+</body>
+</html>

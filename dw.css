@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    position: relative;
+    top: 300px;
+}
+a:hover{
+    color: blue;
+}
+.root
+{
+    background-image: url(./xk.jpg);
+    height: 800px;
+}
