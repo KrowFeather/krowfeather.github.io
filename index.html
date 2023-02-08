@@ -156,6 +156,40 @@
             color: black;
             background-color: white; 
         }
+        .rek{
+            display: flex;
+            position: relative;
+        }
+        .Crek{
+            border: none;
+            background:linear-gradient(to right,blue,lightskyblue) ;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            height: 200px;
+            width: 960px;
+            font-size: 40px;
+        }
+        .Crek:hover{
+            background: lightskyblue;
+        }
+        .Jrek{
+            border: none;
+            background:linear-gradient(to right,red,lightcoral) ;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            height: 200px;
+            width: 960px;
+            font-size: 40px;
+        }
+        .Jrek:hover{
+            background: lightcoral;
+        }
+        .know{
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border-bottom: 2px solid black;
+        }
     </style>
     <script>
         function jump1(){
@@ -168,6 +202,10 @@
         }
         function jump3(){
             var a = "./about.html";
+            window.location.href=a;
+        }
+        function jump4(){
+            var a="./C.html";
             window.location.href=a;
         }
     </script>
@@ -228,6 +266,14 @@
         </div>
         <hr color='black'>
     </div>
+    <div class="know">
+        知识点
+    </div>
+    <div class="rek">
+        <input type="button" value="C" class="Crek" onclick="javascript:jump4();">
+        <input type="button" value="Java" class="Jrek">
+    </div>
+    <hr color='black'>
     <div class="status">
         <p>感谢北京理工大学的曲子p-Its大佬提供技术援助</p>
         <p class="version">version 1.0.1(2023 mega update)</p>
