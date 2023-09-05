@@ -69,3 +69,8 @@ function drawpoints() {
     }
 }
 setInterval(drawpoints, 20) //20毫秒绘制一次
+
+function jumpToResourse(){
+    var a="./resource/resource.html"
+    window.location.href=a;
+}
