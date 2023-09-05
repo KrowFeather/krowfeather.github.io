@@ -1,3 +1,4 @@
+// 拖尾粒子
 var canvas = document.createElement("canvas")
 var ctx = canvas.getContext("2d")
 window.document.body.appendChild(canvas)
