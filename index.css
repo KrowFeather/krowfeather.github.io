@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    overflow-x:hidden;
+}
 .bk{
     background: url(./pic/tek.png) no-repeat fixed;
     height: 100vh;
@@ -22,7 +25,6 @@
     text-align: center;
     font-size: 100px;
     background: linear-gradient(to right ,lightblue,blue);
-    text-shadow: 0px,0px,5px,black;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -70,23 +72,22 @@
     padding: 10px;
     text-align: center;
     transition: all .5s;
-    border: 0.5px solid white;
-    border-radius: 20px;
+    /* border: 0.5px solid white; */
+    /* border-radius: 20px; */
 }
 .tabs > li:hover{
     transition: all .5s;
     /* background: linear-gradient(to right, aqua,rgb(70, 70, 197));  */
     /* background-clip: text; */
     /* -webkit-background-clip: text; */
-    background-color: white;
-    color:black;
+    border-color: white;
+    /* background-color: white; */
 }
-
 .contain{
     width: 100%;
 }
 .intro{
-    height: 800px;
+    height: 500px;
     width: 100%;
 }
 .continue{
